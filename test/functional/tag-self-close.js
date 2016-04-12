@@ -14,5 +14,15 @@ module.exports = [
         input: '<img/>',
         opts: { 'tag-self-close': true },
         output: 0
+    }, {
+        desc: 'should match self-closed tags when set to none',
+        input: '<img/>',
+        opts: { 'tag-self-close': 'none' },
+        output: 1
+    }, {
+        desc: 'should not match self-closed tags when set to none',
+        input: '<img>',
+        opts: { 'tag-self-close': 'none' },
+        output: 1
     }
 ];
