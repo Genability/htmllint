@@ -15,6 +15,10 @@
         "desc": "If set, unsafe characters may not be used in attribute values. The unsafe characters are those whose unicode values lie in the ranges 0000-001f, 007f-009f, 00ad, 0600-0604, 070f, 17b4, 17b5, 200c-200f, 2028-202f, 2060-206f, feff, fff0-ffff.",
         "default": true
     },
+    "attr-order": {
+        "desc": "An order specifier, or `false`. If set, attributes must be in the given order.",
+        "default": false
+    },
     "attr-quote-style": {
         "desc": "* \"double\": Attribute values must be quoted using double quotes. * \"single\": Attribute values must be quoted using single quotes. * \"quoted\": Attribute values must be quoted. * `false`: No restriction.",
         "default": "double"
