@@ -27,6 +27,10 @@
         "desc": "If set, the same class name(s) cannot be repeated within the same class attribute",
         "default": true
     },
+    "class-order": {
+        "desc": "An order specifier, specifier, or `false`. If set, `class`es must be in the given order.",
+        "default": false
+    },
     "class-style": {
         "desc": "A format specifier, or `false`. If set, `class`es must fit the given format.",
         "default": "underscore"
