@@ -29,10 +29,4 @@ module.exports = [
         opts: { 'class-order': 'alphabetically' },
         output: 1
     },
-    {
-        desc: 'should catch multiple duplicates in one class',
-        input: '<body><div><p class="hey hey hi ho ho">Text</p></div></body>',
-        opts: { 'class-order': true },
-        output: 2
-    }
 ];
