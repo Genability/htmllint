@@ -28,7 +28,7 @@
         "default": true
     },
     "class-order": {
-        "desc": "An order specifier, specifier, or `false`. If set, `class`es must be in the given order.",
+        "desc": "An order specifier, or `false`. If set, `class`es must be in the given order.",
         "default": false
     },
     "class-style": {
