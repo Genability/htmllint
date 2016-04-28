@@ -23,6 +23,6 @@ module.exports = [
         desc: 'should not match self-closed tags when set to none',
         input: '<img>',
         opts: { 'tag-self-close': 'none' },
-        output: 1
+        output: 0
     }
 ];
